@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\Car;
-use Carbon\CarbonImmutable;
 use Illuminate\Http\Request;
 
 class CarsController extends Controller
@@ -15,7 +14,7 @@ class CarsController extends Controller
      */
     public function index()
     {
-        return CarbonImmutable::all();
+        return Car::all();
     }
 
     /**
