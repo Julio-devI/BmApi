@@ -37,8 +37,9 @@ class CarsController extends Controller
     {
         $request->validate([
             'name' => 'required',
-            'slug' => 'required',
-            'price' => 'required'
+            'description' => 'required',
+            'price' => 'required',
+            'year' => 'required'
         ]);
 
         return Car::create($request->all());
@@ -75,9 +76,9 @@ class CarsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $product = Car::findOrFail($id);
-        $product->update($request->all());
-        return $product;
+        $car = Car::findOrFail($id);
+        $car->update($request->all());
+        return $car;
     }
 
     /**
