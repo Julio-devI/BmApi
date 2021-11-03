@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CarsController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -18,9 +19,11 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/cars', [ProductController::class, 'index'])->name('all.cars');
-Route::get('/cars/search/{name}', [ProductController::class, 'search'])->name('cars.search');
-Route::get('/cars/{id}', [ProductController::class, 'show'])->name('cars.show');
+Route::get('/cars', [CarsController::class, 'index'])->name('all.cars');
+Route::get('/cars/search/{name}', [CarsController::class, 'search'])->name('cars.search');
+Route::get('/cars/{id}', [CarsController::class, 'show'])->name('cars.show');
+
+//Routes login and register
 Route::post('/register', [AuthController::class, 'register'])->name('cars.register');
 Route::post('/login', [AuthController::class, 'login'])->name('cars.login');
 
