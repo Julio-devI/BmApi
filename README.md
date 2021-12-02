@@ -7,6 +7,7 @@
 <li>Create the database on your machine</li>
 <li>Enter the php artisan migrate command</li>
 <li>Populate the database as you prefer through requests</li>
+<li>register and login via the login and registration routes</li>
 <li>If you want a site to consume my api, I make a github repository available specifically for consuming this api: https://github.com/Julio-devI/consumindoapi</li>
 </ul>
 <h2>API description</h2>
