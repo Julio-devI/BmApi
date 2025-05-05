@@ -110,6 +110,30 @@
             <mxPoint y="2" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="BxG9x5frBWyXMrTAPRmU-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BxG9x5frBWyXMrTAPRmU-2" target="BxG9x5frBWyXMrTAPRmU-99">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="275" />
+              <mxPoint x="530" y="-20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BxG9x5frBWyXMrTAPRmU-105" value="Vende" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BxG9x5frBWyXMrTAPRmU-104">
+          <mxGeometry x="-0.5543" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BxG9x5frBWyXMrTAPRmU-106" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BxG9x5frBWyXMrTAPRmU-104">
+          <mxGeometry x="-0.9618" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BxG9x5frBWyXMrTAPRmU-107" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BxG9x5frBWyXMrTAPRmU-104">
+          <mxGeometry x="0.8965" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="BxG9x5frBWyXMrTAPRmU-2" value="Jogador" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="260" width="120" height="60" as="geometry" />
         </mxCell>
@@ -216,7 +240,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BxG9x5frBWyXMrTAPRmU-48" value="Jogo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="-10" width="100" height="60" as="geometry" />
+          <mxGeometry x="610" y="-50" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BxG9x5frBWyXMrTAPRmU-49" value="Sessão" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="460" width="120" height="60" as="geometry" />
@@ -255,8 +279,29 @@
         <mxCell id="BxG9x5frBWyXMrTAPRmU-92" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="BxG9x5frBWyXMrTAPRmU-91">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="BxG9x5frBWyXMrTAPRmU-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BxG9x5frBWyXMrTAPRmU-93" target="BxG9x5frBWyXMrTAPRmU-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BxG9x5frBWyXMrTAPRmU-101" value="Comercializado" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BxG9x5frBWyXMrTAPRmU-100">
+          <mxGeometry x="0.1573" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BxG9x5frBWyXMrTAPRmU-102" value="(1,x)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BxG9x5frBWyXMrTAPRmU-100">
+          <mxGeometry x="-0.8555" y="-4" relative="1" as="geometry">
+            <mxPoint x="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BxG9x5frBWyXMrTAPRmU-103" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BxG9x5frBWyXMrTAPRmU-100">
+          <mxGeometry x="0.7755" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="BxG9x5frBWyXMrTAPRmU-93" value="BenProduzido" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BxG9x5frBWyXMrTAPRmU-99" value="Mercado" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-50" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
